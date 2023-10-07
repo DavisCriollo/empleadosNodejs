@@ -18,3 +18,23 @@ INSERT INTO employee values
   (4, 'John Carter', 50000);
 
 SELECT * FROM employee;
+
+
+-- CREAMOS EL USUARIO
+
+CREATE TABLE usuarios (
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  nombre VARCHAR(45) DEFAULT NULL,
+  clave VARCHAR(45) DEFAULT NULL,
+  PRIMARY KEY(id)
+);
+
+
+
+INSERT INTO usuarios values 
+  (1, 'Edwin', '12345'),
+  (2, 'Jose', '123');
+ 
+
+
+SELECT * FROM usuario;

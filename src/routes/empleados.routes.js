@@ -5,10 +5,6 @@ import {getEmpleado,getEmpleados,createEmpleados,updateEmpleado,deleteEmpleado} 
 const router = Router()
 
 
-
-
-
-
 router.get('/empleado/:id',getEmpleado)
 router.get('/empleados',getEmpleados)
 router.post('/empleados',createEmpleados)
